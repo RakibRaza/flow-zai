@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/x-icon">
+  <title>Flowzai - Webflow Design & Development Agency</title>
+  <!-- CSS File -->
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <!-- Email js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_eihYX2s93jUM4PSdei0wy");
+    })();
+  </script>
+</head>
+
+<body>
+
+  <!-- Header area start here -->
+  <header id="sticky" class="transparent-header header-area">
+    <nav>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-3">
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="col-lg-9">
+            <div class="menu text-end">
+              <a href="#features">features</a>
+              <a href="#product">Templates</a>
+              <a href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- mobile menu area start here -->
+  <div class="mobile-menu-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <div class="logo-area">
+            <a href="index.html"><img src="assets/images/logo.png" alt="Landzai"></a>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="menu-bar text-end">
+            <span class="fas fa-bars animate__animated animate__pulse animate__infinite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <nav>
+        <ul>
+          <li><a href="#features">features</a> </li>
+          <li><a href="#product">Templates</a> </li>
+          <li><a href="#contact">Contact Us</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="menu-overlay"></div>
+  <!-- banner area start here  -->
+  <section class="banner-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="banner-left">
+            <img class="text-shape" src="assets/images/text-shape.png" alt="shape">
+            <img class="love-shape animate__animated animate__pulse animate__infinite"
+              src="assets/images/love-shape.png" alt="shape">
+            <h1>Creative Agency Focusing On Design Webflow Templates. </h1>
+            <p>Flowzai is a creative agency with UI/UX Designer and Webflow Developers. We mainly design and build
+              awesome and user friendly Webflow templates. </p>
+            <a href="#product" class="primary-btn">Explore</a>
+          </div>
+        </div>
+        <div class="d-none d-lg-block col-lg-6">
+          <div class="banner-right">
+            <img class="img-1 wow animate__animated animate__slideInLeft" src="assets/images/banner/1.png"
+              alt="website">
+            <img class="img-2 wow animate__animated animate__slideInDown" src="assets/images/banner/2.png"
+              alt="website">
+            <img class="img-3 wow animate__animated animate__slideInUp" src="assets/images/banner/3.png" alt="website">
+            <img class="img-4" src="assets/images/banner/w.png" alt="w">
+            <img class="img-5 animate__animated animate__bounceInDown" src="assets/images/banner/like.png" alt="like">
+            <img class="img-6" src="assets/images/banner/shape.png" alt="shape">
+            <img class="img-7" src="assets/images/banner/logo.png" alt="logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner area end here  -->
+
+  <!-- Service area start here  -->
+  <section class="service-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title text-center">
+            <div class="title-logo">
+              <svg width="44" height="66" viewBox="0 0 44 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44.0031 7.56585L14.1186 19.6098C11.6063 20.6195 9.72567 22.6024 8.71793 24.9805C7.71018 27.3585 7.56825 30.1317 8.5547 32.7146L14.5373 48.4902L7.19922 51.4463L1.21663 35.678C-0.557561 31.0024 -0.316271 26.0049 1.5005 21.7244C3.31728 17.4439 6.71663 13.8732 11.2515 12.0439L41.136 0L44.0031 7.56585Z"
+                  fill="#28CD96" />
+                <path
+                  d="M28.6497 39.9292L25.5342 31.7194L26.9465 31.1487L28.962 30.3365L39.1245 26.2389L36.2574 18.6731L26.0949 22.7707L24.0865 23.5829L22.6742 24.1536C18.1323 25.9829 19.8781 25.2804 15.3361 27.1097C18.0116 34.1707 18.5723 35.6414 21.3187 42.8853C22.2981 45.4755 22.1632 48.2414 21.1555 50.6194C20.1478 52.9975 18.2671 54.9804 15.7549 55.9902L9.7013 58.4268L12.5542 65.9999L18.6078 63.5633C23.1426 61.7341 26.542 58.1633 28.3587 53.8829C30.1826 49.6024 30.4239 44.6121 28.6497 39.9292Z"
+                  fill="#2AC692" />
+              </svg>
+            </div>
+            <h2 class="title">Simplicity meets innovative design</h2>
+            <p class="sub-title">Our process is our key. At the time of design we always try to maintain our process and
+              its will always help us to design and build best products. </p>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="single-service h-100 text-center wow animate__animated animate__slideInUp">
+            <svg width="44" height="42" viewBox="0 0 44 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M39.1448 21.0001H30.5417C28.1758 21.0001 26.2401 22.8751 26.2401 25.1667V37.6667C26.2401 39.9584 28.1758 41.8334 30.5417 41.8334H39.1448C41.5106 41.8334 43.4463 39.9584 43.4463 37.6667V25.1667C43.4463 22.8751 41.5106 21.0001 39.1448 21.0001Z"
+                fill="#FACFCA" />
+              <path
+                d="M13.3353 0.166687H4.73222C2.36637 0.166687 0.430679 2.04169 0.430679 4.33335V16.8334C0.430679 19.125 2.36637 21 4.73222 21H13.3353C15.7012 21 17.6369 19.125 17.6369 16.8334V4.33335C17.6369 2.04169 15.7012 0.166687 13.3353 0.166687Z"
+                fill="#FACFCA" />
+              <path
+                d="M39.1448 0.166748H30.5417C28.1758 0.166748 26.2401 2.04175 26.2401 4.33341V8.50008C26.2401 10.7917 28.1758 12.6667 30.5417 12.6667H39.1448C41.5106 12.6667 43.4463 10.7917 43.4463 8.50008V4.33341C43.4463 2.04175 41.5106 0.166748 39.1448 0.166748Z"
+                fill="#FACFCA" />
+              <path
+                d="M13.3354 29.3334H4.73233C2.36648 29.3334 0.430786 31.2084 0.430786 33.5V37.6667C0.430786 39.9584 2.36648 41.8334 4.73233 41.8334H13.3354C15.7013 41.8334 17.637 39.9584 17.637 37.6667V33.5C17.637 31.2084 15.7013 29.3334 13.3354 29.3334Z"
+                fill="#FACFCA" />
+            </svg>
+            <h3>Idea & Research</h3>
+            <p>At first we do our basic research and generate the idea.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="single-service h-100 text-center wow animate__animated animate__slideInUp">
+            <svg width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M21.5657 18.8C20.2872 18.8 19.2217 19.827 19.2217 21.0594C19.2217 22.2918 20.2872 23.3189 21.5657 23.3189C22.8443 23.3189 23.9098 22.2918 23.9098 21.0594C23.9098 19.827 22.8443 18.8 21.5657 18.8ZM21.5657 0.519043C9.84537 0.519043 0.255974 9.76221 0.255974 21.0594C0.255974 32.3566 9.84537 41.5998 21.5657 41.5998C33.2861 41.5998 42.8755 32.3566 42.8755 21.0594C42.8755 9.76221 33.2861 0.519043 21.5657 0.519043ZM26.2539 25.5783L8.77988 33.3836L16.8776 16.5405L34.3516 8.73519L26.2539 25.5783Z"
+                fill="#F8AEC3" />
+            </svg>
+            <h3>Business Analysis</h3>
+            <p>Second steps we try to analyze the business and try to get the data.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="single-service h-100 text-center wow animate__animated animate__slideInUp">
+            <svg width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M45.6107 23.7049C45.4908 24.004 45.2838 24.2603 45.0165 24.4404C44.7493 24.6205 44.434 24.7162 44.1117 24.7151H39.2236V37.7501C39.2223 38.1818 39.0502 38.5954 38.7449 38.9007C38.4396 39.206 38.026 39.3781 37.5943 39.3794H29.4475V27.9738C29.4475 26.2453 28.7608 24.5875 27.5385 23.3652C26.3163 22.143 24.6585 21.4563 22.93 21.4563C21.2015 21.4563 19.5437 22.143 18.3215 23.3652C17.0992 24.5875 16.4125 26.2453 16.4125 27.9738V39.3794H8.26572C7.83401 39.3781 7.42038 39.206 7.11511 38.9007C6.80984 38.5954 6.63773 38.1818 6.63636 37.7501V24.7151H1.74827C1.42596 24.7162 1.11075 24.6205 0.843469 24.4404C0.576192 24.2603 0.369176 24.004 0.249252 23.7049C0.124779 23.4081 0.0908503 23.0811 0.151734 22.7651C0.212617 22.4491 0.365593 22.1581 0.591418 21.9288L21.7732 0.746962C22.0807 0.441617 22.4966 0.270264 22.93 0.270264C23.3634 0.270264 23.7793 0.441617 24.0868 0.746962L45.2686 21.9288C45.4944 22.1581 45.6474 22.4491 45.7083 22.7651C45.7691 23.0811 45.7352 23.4081 45.6107 23.7049Z"
+                fill="#9DA3E9" />
+            </svg>
+            <h3>UI/UX Design</h3>
+            <p>Third step we try to design the style guideline and UI /UX design.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="single-service h-100 text-center wow animate__animated animate__slideInUp">
+            <svg width="34" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.8157 16.0239C12.8157 16.0613 12.8128 16.0985 12.8086 16.1355L24.0902 21.2648C24.5903 20.9077 25.1512 20.6165 25.7586 20.4107C26.4086 20.1904 27.1081 20.0685 27.839 20.0685C29.5299 20.0685 31.0605 20.6916 32.1684 21.6991C33.2763 22.7066 33.9615 24.0985 33.9615 25.6361C33.9615 27.1736 33.2764 28.5655 32.1686 29.5732C31.0599 30.5818 29.5291 31.2055 27.839 31.2055C26.1483 31.2055 24.6182 30.5821 23.5102 29.5739C22.4027 28.5661 21.7182 27.174 21.7182 25.6361C21.7182 25.5977 21.721 25.5601 21.7252 25.523L10.4431 20.395C9.94148 20.751 9.37975 21.0418 8.77146 21.2473C8.12249 21.4666 7.42468 21.5883 6.69482 21.5883C5.00487 21.5883 3.47457 20.9656 2.36664 19.9587C1.25797 18.9511 0.572327 17.56 0.572327 16.0239C0.572327 14.4863 1.25745 13.0944 2.3652 12.0868C3.47397 11.0781 5.00476 10.4545 6.69482 10.4545C7.42452 10.4545 8.12249 10.5765 8.77135 10.7961C9.37815 11.0014 9.93983 11.2928 10.4422 11.6499L21.7253 6.52143C21.7211 6.48352 21.7182 6.44532 21.7182 6.40662C21.7182 4.87097 22.4034 3.47938 23.5122 2.47146C24.6193 1.46498 26.1487 0.842285 27.839 0.842285C29.5287 0.842285 31.0588 1.46525 32.1666 2.4721C33.2756 3.47994 33.9615 4.87126 33.9615 6.40662C33.9615 7.9443 33.2764 9.33614 32.1687 10.3438C31.0599 11.3524 29.5291 11.976 27.839 11.976C27.1069 11.976 26.4075 11.8538 25.7583 11.6336C25.1503 11.4273 24.5896 11.1356 24.09 10.7781L12.8085 15.9094C12.8128 15.9472 12.8156 15.9853 12.8156 16.0239L12.8157 16.0239Z"
+                fill="#74D5DE" />
+            </svg>
+            <h3>Webflow Development</h3>
+            <p>At the last step we convert the design into webflow with CMS & Ecommerce.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Service area end here  -->
+  <!-- Product area start here  -->
+  <section id="product" class="product-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <div class="badge-container">
+              <h2 class="title">Latest Products</h2>
+              <span class="badge">hot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-sm-12 col-md-6">
+          <div class="single-product wow animate__animated animate__zoomIn">
+            <div class="product-top">
+              <div class="product-inner">
+                <div class="img-container img-1"></div>
+                <div class="product-tag">
+                  <span class="small-btn">Game</span><span class="small-btn green">CMS</span>
+                  <span class="small-btn yellow">Ecommerce</span><span class="small-btn red">Responsive </span>
+                </div>
+                <h3>Infinizai - Game Website Template</h3>
+                <p>Infinizai – An awesome website template for your next webflow website for games. Easy to use and
+                  accessible. Responsive and clean design with CMS collections for teams and Blog, Blog Details. Also
+                  have ecommerce features by which you can easily sell your kits from the website. </p>
+              </div>
+            </div>
+            <div class="product-bottom">
+              <a class="view-btn" href="https://infinizai.webflow.io/" target="_blank">View in webflow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="single-product wow animate__animated animate__zoomIn">
+            <div class="product-top">
+              <div class="product-inner">
+                <div class="img-container img-2"></div>
+                <div class="product-tag">
+                  <span class="small-btn">Conference </span><span class="small-btn green">CMS</span><span
+                    class="small-btn yellow">Ecommerce</span><span class="small-btn red">Responsive </span>
+                </div>
+                <h3>Conzai- conference website template</h3>
+                <p>Insurzai– An awesome website template for your next webflow website for Insurance. Easy to use and
+                  accessible.Responsive and clean design with CMS collections for Insurance items and Blog, Blog
+                  Details. The template design is awesome that will help you to make your next website more awesome and
+                  user friendly. </p>
+              </div>
+            </div>
+            <div class="product-bottom">
+              <a class="view-btn" href="https://conzai.webflow.io/" target="_blank">View in webflow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="single-product wow animate__animated animate__zoomIn">
+            <div class="product-top">
+              <div class="product-inner">
+                <div class="img-container img-3"></div>
+                <div class="product-tag">
+                  <span class="small-btn">Insurance</span><span class="small-btn green">CMS</span><span
+                    class="small-btn yellow">Responsive</span><span class="small-btn red">Style Guide</span>
+                </div>
+                <h3>Insurzai - Insurance Website Template</h3>
+                <p>Insurzai – An awesome website template for your next webflow website for Insurance. Easy to use and
+                  accessible. Responsive and clean design with CMS collections for Insurance items and Blog, Blog
+                  Details. The template design is awesome that will help you to make your next website more awesome and
+                  user friendly.
+                </p>
+              </div>
+            </div>
+            <div class="product-bottom">
+              <a class="view-btn" href="https://insurzai.webflow.io/" target="_blank">View in webflow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 d-none d-md-block">
+          <div
+            class="single-product d-flex align-items-center justify-content-center h-100 wow animate__animated animate__zoomIn">
+            <div class="product-inner p-5">
+              <h3>More Product Are <br> Comming Soon ... </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Product area end here  -->
+
+  <!-- Possibilities area Start here  -->
+  <section id="features" class="possibilitie-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title text-center">
+            <h2 class="title">Limitless possibilities</h2>
+            <p class="sub-title">The templates that flowzai developed, it's really awesome because of it’s cool
+              features. We are always trying to focus on making our product perfect. </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+          <div class="single-possible wow animate__animated animate__fadeInDown">
+            <svg width="46" height="48" viewBox="0 0 46 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 12V19" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M12 24H18" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M26.4263 27.6404L35.5735 37.3593" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M34 41H28" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M7 12C9.76142 12 12 9.76142 12 7C12 4.23858 9.76142 2 7 2C4.23858 2 2 4.23858 2 7C2 9.76142 4.23858 12 7 12Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M23 12C25.7614 12 28 9.76142 28 7C28 4.23858 25.7614 2 23 2C20.2386 2 18 4.23858 18 7C18 9.76142 20.2386 12 23 12Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M39 12C41.7614 12 44 9.76142 44 7C44 4.23858 41.7614 2 39 2C36.2386 2 34 4.23858 34 7C34 9.76142 36.2386 12 39 12Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M7 29C9.76142 29 12 26.7614 12 24C12 21.2386 9.76142 19 7 19C4.23858 19 2 21.2386 2 24C2 26.7614 4.23858 29 7 29Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M23 29C25.7614 29 28 26.7614 28 24C28 21.2386 25.7614 19 23 19C20.2386 19 18 21.2386 18 24C18 26.7614 20.2386 29 23 29Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M39 29C41.7614 29 44 26.7614 44 24C44 21.2386 41.7614 19 39 19C36.2386 19 34 21.2386 34 24C34 26.7614 36.2386 29 39 29Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M7 46C9.76142 46 12 43.7614 12 41C12 38.2386 9.76142 36 7 36C4.23858 36 2 38.2386 2 41C2 43.7614 4.23858 46 7 46Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M23 46C25.7614 46 28 43.7614 28 41C28 38.2386 25.7614 36 23 36C20.2386 36 18 38.2386 18 41C18 43.7614 20.2386 46 23 46Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M39 46C41.7614 46 44 43.7614 44 41C44 38.2386 41.7614 36 39 36C36.2386 36 34 38.2386 34 41C34 43.7614 36.2386 46 39 46Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <h3>Best <br> UI/UX</h3>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+          <div class="single-possible wow animate__animated animate__fadeInDown">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M31.136 27.136L42 38L38 42L27.135 31.135" stroke="#2AC692" stroke-width="3"
+                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M18 34C26.8366 34 34 26.8366 34 18C34 9.16344 26.8366 2 18 2C9.16344 2 2 9.16344 2 18C2 26.8366 9.16344 34 18 34Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <h3>Style <br> Guide </h3>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+          <div class="single-possible wow animate__animated animate__fadeInDown">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 16H16V32H32V16Z" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M4 10C4 6.7 6.7 4 10 4C13.3 4 16 6.7 16 10C16 11.5 16 16 16 16C16 16 11.8 16 10 16C6.7 16 4 13.3 4 10Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M44 10C44 6.7 41.3 4 38 4C34.7 4 32 6.7 32 10C32 11.5 32 16 32 16C32 16 36.2 16 38 16C41.3 16 44 13.3 44 10Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M44 38C44 41.3 41.3 44 38 44C34.7 44 32 41.3 32 38C32 36.5 32 32 32 32C32 32 36.2 32 38 32C41.3 32 44 34.7 44 38Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M4 38C4 41.3 6.7 44 10 44C13.3 44 16 41.3 16 38C16 36.5 16 32 16 32C16 32 11.8 32 10 32C6.7 32 4 34.7 4 38Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <h3>Easy Content <br> Management </h3>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+          <div class="single-possible wow animate__animated animate__fadeInDown">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 46C36.1503 46 46 36.1503 46 24C46 11.8497 36.1503 2 24 2C11.8497 2 2 11.8497 2 24C2 36.1503 11.8497 46 24 46Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <h3>Awesome <br> Interaction</h3>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+          <div class="single-possible wow animate__animated animate__fadeInDown">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.354 14.697L11.541 5.88403" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M5.884 11.541L14.698 20.354" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M33.303 20.354L42.116 11.541" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M36.459 5.88403L27.646 14.698" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M27.646 33.303L36.459 42.116" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M42.116 36.459L33.302 27.646" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M14.697 27.646L5.884 36.459" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M11.541 42.116L20.354 33.302" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M39.5559 39.5562C48.1473 30.9647 48.1473 17.0353 39.5559 8.4438C30.9644 -0.147651 17.0349 -0.147651 8.4435 8.4438C-0.147954 17.0353 -0.147954 30.9647 8.4435 39.5562C17.0349 48.1477 30.9644 48.1477 39.5559 39.5562Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M31.0707 31.071C34.9759 27.1658 34.9759 20.8342 31.0707 16.929C27.1655 13.0238 20.8339 13.0238 16.9287 16.929C13.0235 20.8342 13.0235 27.1658 16.9287 31.071C20.8339 34.9762 27.1655 34.9762 31.0707 31.071Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <h3>Ecommerce <br> Functionality. </h3>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+          <div class="single-possible wow animate__animated animate__fadeInDown">
+            <svg width="44" height="48" viewBox="0 0 44 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.8786 39V41C11.8786 45.5 6.87857 46 6.87857 46C6.87857 46 36.5356 46 36.8786 46C39.6396 46 41.8786 43.761 41.8786 41V39H11.8786Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M35.8786 34V2H1.87857V41C1.87857 43.761 4.11757 46 6.87857 46" stroke="#2AC692" stroke-width="3"
+                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.87857 12H27.8786" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.87857 20H27.8786" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.87857 28H27.8786" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <h3>Fully <br> Responsive</h3>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+          <div class="single-possible wow animate__animated animate__fadeInDown">
+            <svg width="48" height="44" viewBox="0 0 48 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.75714 11V6C1.75714 4.93913 2.17857 3.92172 2.92871 3.17157C3.67886 2.42143 4.69628 2 5.75714 2H41.7571C42.818 2 43.8354 2.42143 44.5856 3.17157C45.3357 3.92172 45.7571 4.93913 45.7571 6V28C45.7571 29.0609 45.3357 30.0783 44.5856 30.8284C43.8354 31.5786 42.818 32 41.7571 32H25.7571L11.7571 42V32H5.75714C4.69628 32 3.67886 31.5786 2.92871 30.8284C2.17857 30.0783 1.75714 29.0609 1.75714 28V17H25.7571"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M17.7571 9L25.7571 17L17.7571 25" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <h3>Responsive <br> Menu</h3>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3">
+          <div class="single-possible wow animate__animated animate__fadeInDown">
+            <svg width="44" height="48" viewBox="0 0 44 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.62573 37.8511L21.6357 45.9391L35.6457 37.8511" stroke="#2AC692" stroke-width="3"
+                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M16.6457 4.94189L2.63574 13.0299V29.2069" stroke="#2AC692" stroke-width="3"
+                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M40.6357 29.2079V13.0299L26.6257 4.94189" stroke="#2AC692" stroke-width="3"
+                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M26.6357 5V12C26.6357 13.657 24.3967 15 21.6357 15C18.8747 15 16.6357 13.657 16.6357 12V5"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M21.6357 8C24.3972 8 26.6357 6.65685 26.6357 5C26.6357 3.34315 24.3972 2 21.6357 2C18.8743 2 16.6357 3.34315 16.6357 5C16.6357 6.65685 18.8743 8 21.6357 8Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M2.63574 13.03L21.6357 24L40.6357 13.03" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M40.5898 29.1699L34.5278 25.6699C33.0928 24.8409 30.8108 26.1089 29.4278 28.4999C28.0448 30.8909 28.0908 33.4999 29.5278 34.3299L35.5898 37.8299"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M40.5897 29.1699C39.1557 28.3409 36.8727 29.6089 35.4897 31.9999C34.1067 34.3909 34.1537 36.9999 35.5897 37.8299C37.0257 38.6599 39.3077 37.3919 40.6897 34.9999C42.0717 32.6079 42.0247 29.9999 40.5897 29.1699Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M21.6357 24V45.939" stroke="#2AC692" stroke-width="3" stroke-miterlimit="10"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M7.68073 37.8299L13.7437 34.3299C15.1777 33.5019 15.2217 30.8909 13.8437 28.4999C12.4657 26.1089 10.1797 24.8409 8.74372 25.6699L2.68073 29.1699"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M7.77874 32C6.39874 29.608 4.11574 28.341 2.67874 29.17C1.24174 29.999 1.20074 32.608 2.57874 35C3.95674 37.392 6.24274 38.659 7.67874 37.83C9.11474 37.001 9.15974 34.391 7.77874 32Z"
+                stroke="#2AC692" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <h3>24/7 Live <br> Support</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Possibilities area end here  -->
+  <footer id="contact" class="footer-area">
+    <img class="circel-1" src="assets/images/circel-1.png" alt="circel">
+    <img class="circel-2" src="assets/images/circel-2.png" alt="circel">
+    <section class="contact-form-area">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-md-12 col-lg-6 col-xl-5">
+            <h2>Get started with Flowzai today</h2>
+            <p>If you need any types of custom UI/UX design and webflow development help, we are always here for your
+              help. We are a very creative and responsible team who will care for your website and help you to boost
+              your business. </p>
+          </div>
+          <div class="col-md-12 col-lg-6 col-xl-7">
+            <div class="contact-bg">
+              <img class="footer-bg" src="assets/images/footer-bg.png" alt="bg">
+              <div class="contact-form wow animate__animated animate__slideInUp">
+                <div class="form-header text-center">
+                  <div class="form-img">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M28.9 23.8C30.0417 22.7539 30.9574 21.4853 31.5908 20.0723C32.2242 18.6593 32.562 17.1317 32.5834 15.5834C32.5834 8.57087 25.6417 2.83337 17 2.83337C8.35835 2.83337 1.41669 8.57087 1.41669 15.5834C1.41669 22.5959 8.35835 28.3334 17 28.3334C18.4766 28.3123 19.9476 28.1463 21.3917 27.8375L29.75 31.1667L28.9 23.8Z"
+                        stroke="#2AC692" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                      <path d="M9.91669 12.75H24.0834" stroke="#2AC692" stroke-width="2" stroke-miterlimit="10"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M9.91669 18.4167H18.4167" stroke="#2AC692" stroke-width="2" stroke-miterlimit="10"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <h4>Get in touch</h4>
+                </div>
+                <form>
+                  <div>
+                    <label for="name">Name *</label> <br>
+                    <input class="form-input" type="text" id="name" placeholder="ex: Livia Siphron" required>
+                  </div>
+                  <div>
+                    <label for="email">Email *</label> <br>
+                    <input class="form-input" type="email" id="email" placeholder="ex: john@email.com" required>
+                  </div>
+                  <div>
+                    <label for="message">Message *</label> <br>
+                    <textarea class="form-area" name="message" id="message"
+                      placeholder="Write your messaage or inquiry"></textarea>
+                  </div>
+                  <div id="error-tost" class="alert alert-danger" role="alert">
+                    Please Fill Up The Form
+                  </div>
+                  <div id="sucess-tost" class="alert alert-success" role="alert">
+                    Message Send Sucessssfully
+                  </div>
+                  <button id="from-submit" type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer-widget-area">
+      <div class="widget-top">
+        <div class="container">
+          <div class="row gy-4 align-items-center justify-content-between">
+            <div class="col-5">
+              <img src="assets/images/logo-white.png" alt="logo">
+            </div>
+            <div class="col-7">
+              <div class="social-link text-end">
+                <a href="https://www.facebook.com/flowzai" target="_blank"><i class="fab icon fa-facebook-f"></i></a>
+                <a href="https://dribbble.com/Flowzai/about" target="_blank"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="widget-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p class="copyright-text">© Copyright Flowzai 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- js file  -->
+  <script src="assets/js/jquery-3.6.0.js"></script>
+  <script src="assets/js/wow.min-1.3.0.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js//main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+@media(max-width:1400px) {
+  .banner-area h1 {
+    font-size: 70px;
+}
+.banner-area .banner-left .love-shape {
+  left: 463px;
+}
+}
+@media(max-width: 1200px) {
+  .banner-area h1 {
+    font-size: 58px;
+  }
+  .banner-area .banner-left .love-shape {
+    left: 372px;
+  }
+  .contact-form-area .contact-form {
+    padding: 60px 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 991px) {
+  .mobile-menu-area {
+    display: block;
+  }
+}
+@media(max-width: 992px) {
+  .transparent-header {
+    display: none;
+  }
+  .menu-overlay {
+    display: block;
+  }
+  .banner-area {
+    padding: 160px 0;
+  }
+  .possibilitie-area {
+    padding-bottom: 80px;
+  }
+  .contact-form-area .contact-form {   
+    margin-top: 0;
+  }
+  .contact-form-area h2 {
+    margin-top: 30px;
+  }
+  .footer-widget-area .widget-top {
+    padding-top: 70px;
+  }
+}
+@media(max-width: 768px) {
+  .contact-form-area h2 {
+    font-size: 32px;
+  }
+  .contact-form-area p {
+    font-size: 15px;
+  }
+  .footer-widget-area .widget-top .footer-link a {
+    font-size: 12px;  
+  }
+  .footer-widget-area .widget-top .social-link a {
+    margin: 0 5px;
+  }
+  .copyright-text {
+    font-size: 15px;
+  }
+}
+@media(max-width: 576px) {
+  .banner-area h1 {
+    font-size: 39px;
+    line-height: 55px;
+  }
+  .section-title .title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .section-title .sub-title {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .product-area .single-product .product-top h3 {
+    font-size: 20px;
+  }
+  .product-area .single-product .view-btn {
+    font-size: 14px;
+  }
+  .single-possible {
+    text-align: center;
+  }
+  .single-possible h3::after {
+    left: 50%;
+    margin-left: -40px;
+  }
+}
+@media(max-width: 710px) {
+  .banner-area .banner-left .love-shape {
+    left: 300px;  
+  }
+  .banner-area .banner-left .text-shape {
+    left: -30px;
+}
+}
+@media(max-width: 565px) {
+  .banner-area .banner-left .love-shape {
+    display: none;
+  }
+  .banner-area .banner-left .text-shape {
+    display: none;
+  }
+}
+@media(max-width: 1450px) {
+  .banner-area .banner-right .img-1 {
+    left: 10px;
+  }
+  .banner-area .banner-right .img-2 {
+    right: 0px;
+  }
+  .banner-area .banner-right .img-7 {
+    left: 500px;
+  }
+}
+@media(max-width: 1360px) {
+  .banner-area .banner-right .img-7 {
+    left: 400px;
+  }
+}
+@media(max-width: 1260px) {
+  .banner-area .banner-right .img-7 {
+    top: 270px;
+    left: 300px;
+  }
+  .banner-area .banner-right .img-3 {
+    left: 200px;
+  }
+}
